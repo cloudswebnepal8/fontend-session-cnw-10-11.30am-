@@ -7,11 +7,11 @@ function Hero() {
         {/* left contents  */}
         <div className='max-w-3xl text-center'>
           {/* name  */}
-          <h1 className='text-3xl font-bold text-green-400'>Ajay Kumar Shrestha</h1>
+          <h1 className='text-3xl font-bold p-4 text-green-400'>Ajay Kumar Shrestha</h1>
           {/* position  */}
-          <h2>Full Stack Developer</h2>
+          <h2 className='p-2'>Full Stack Developer</h2>
           {/* short intro  */}
-          <p>I design highly scalable web applications using MongoDB , Express ,React and Nodejs</p>
+          <p className='p-2'>I design and develop highly scalable web applications using MongoDB , Express ,React and Nodejs.</p>
 
           <div>
             <a href="/cv.pdf" download>
